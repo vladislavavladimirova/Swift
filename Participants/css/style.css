@@ -1,0 +1,36 @@
+html {
+    font-family: Verdana;
+    background-color: #34495e; 
+    color: #fff;
+    line-height: 25px; 
+    font-size: 16px;
+}
+
+.mainTable {
+    width: 100%; 
+}
+
+.Data {
+    color: #f1c40f; 
+}
+
+.emptyCol {
+    width: 5%;    
+}
+
+.col {
+    background-color: #e74c3c;
+}
+
+table img {
+    float: left;
+}
+
+td ul {
+    float: left;
+    list-style: none;
+}
+
+.Name {
+    font-size: 130%;
+}
