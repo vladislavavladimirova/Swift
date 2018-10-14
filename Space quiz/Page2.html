@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <title>Space quiz</title>
+        <body>
+            <header><h1>Short space quiz</h1></header>
+            <div>After you select your answer, click the button to finish the quiz</div>
+            <div><h2>By listening to the audio track, can you guess who is speaking</h2></div>
+            <div>1. <audio controls>
+                <source src="Question 2.mp3" type="audio/mp3">
+            </audio>
+            </div>
+            <form method="POST" name="QUIZ" action="#">
+                    <ol start="A" type="A">
+                        <li><input type="radio" name="secondquestion" value="a">Darth Vader</li>
+                        <li><input type="radio" name="secondquestion" value="b">Terminator</li>
+                        <li><input type="radio" name="secondquestion" value="c">Stephen Hawking</li>
+                        <li><input type="radio" name="secondquestion" value="d">Michio Kaku</li>
+                    </ol>
+            </form>
+
+            <div>2. <audio controls>
+                    <source src="Question 3.mp3" type="audio/mp3">
+                </audio>
+                </div>
+                <form method="POST" name="QUIZ" action="#">
+                        <ol start="A" type="A">
+                            <li><input type="radio" name="thirdquestion" value="5">Elon Musk</li>
+                            <li><input type="radio" name="thirdquestion" value="6">Neil deGrasse Tyson</li>
+                            <li><input type="radio" name="thirdquestion" value="7">Mike Tyson</li>
+                            <li><input type="radio" name="thirdquestion" value="8">Eddie Murphy</li>
+                        </ol>
+                        <input type="submit" value="Finish quiz">
+                </form>
+
+        </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>Space quiz</title>
+    <body>
+        <header><h1>Short space quiz</h1></header>
+        <div>After you select your answer, click the next button to go to the next question</div>
+        <div><h2>By watching the video, can you guess what is the size of the space station?</h2></div>
+        <video controls height="300">
+            <source src="iss animation.mp4" type="video/mp4">
+        </video>
+        <form method="POST" name="QUIZ" action="Page2.html">
+            <ol start="A" type="A">
+                <li><input type="radio" name="firstquestion" value="1">350m X 232m</li>
+                <li><input type="radio" name="firstquestion" value="2">60m X 24m</li>
+                <li><input type="radio" name="firstquestion" value="3">109m X 73m</li>
+                <li><input type="radio" name="firstquestion" value="4">206m X 176m</li>
+            </ol>
+            <input type="submit" value="Next question ->">
+        </form>
+    </body>
+</html>
