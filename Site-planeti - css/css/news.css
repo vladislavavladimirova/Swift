@@ -1,0 +1,26 @@
+html {
+    background-color: #7f8c8d;
+    font-family: Verdana;
+}
+
+.mainPage {
+    margin: 0px 200px 0px 200px;
+    background-color: #ecf0f1;
+    padding-top: 90px;
+    height: 100vh;
+}
+
+h1 {
+    margin: 20px 20px 10px 30px;
+    font-size: 40px;
+}
+
+.bread {
+    margin-left: 30px;
+}
+
+iframe {
+    margin: 20px 0 0 25%;
+    width: 50%;
+    height: 50%;
+}

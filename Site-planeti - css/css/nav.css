@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav {
+    display: block;
+    background-color: #95a5a6;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 3px 3px;
+}
+
+.mainNav a {
+    color: black;
+    text-decoration: none;
+}
+
+.navcol {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+}

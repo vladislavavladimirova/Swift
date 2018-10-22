@@ -1,0 +1,17 @@
+.oneOfFour img {
+    border-radius: 8px;
+    width: 20%;
+    height: 160px;
+    margin: 0 20px;
+}
+
+.oneOfFour {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mainPage {
+    height: 100vh;
+}

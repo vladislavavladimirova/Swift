@@ -1,0 +1,11 @@
+.textMercury {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+iframe {
+    margin: 0px 0 20px 25%;
+    width: 50%;
+    height: 300px;
+}

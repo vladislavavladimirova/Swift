@@ -1,0 +1,36 @@
+html {
+    background-color: #7f8c8d;
+    font-family: Verdana;
+}
+
+.mainPage {
+    margin: 0px 200px;
+    background-color: #ecf0f1;
+    padding-top: 90px;
+}
+
+.text {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 30px;
+}
+
+.list {
+    display: block;
+    padding: 40px;
+}
+
+.text img {
+    margin-bottom: 300px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 20px 20px 10px 30px;
+    font-size: 40px;
+}
+
+.bread {
+    margin-left: 30px;
+}

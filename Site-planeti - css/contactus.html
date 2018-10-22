@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+        <link href="css/nav.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/contactus.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="mainNav">
+                <div class="navcol logo"><a href="site.html"><img src="img/Logo.png" alt="logo"></a></div>
+
+                <div class="navcol"><a href="news.html">News</a></div>
+
+                <div class="navcol"><a href="contactus.html">Contact us</a></div>
+
+                <div class="navcol"><a href="gallery.html">Gallery</a></div>  
+            </nav>
+        </header>
+        <section class="mainPage">
+            <div class="bread"><a href="site.html">Planets</a> --> <a href="contactus.html">Contact us</a></div>
+            <h1>If you'd like to contact us, please fill in the following form:</h1>
+            <form method="POST" name="contactus" action="#">
+                <div>
+                    <p>First name: <input type="text" required name="firstName" placeholder="First name"></p>
+                    <p>Family name: <input type="text" required name="familyName" placeholder="Family name"></p>
+                    <p>Email: <input type="email" required name="email" placeholder="example@domain.com"></p>
+                    <p>Phone number: <input type="number" required name="number" placeholder="+359#######"></p>
+                    <p>Sex: <input type="radio" required name="Sex" value="Man"> Man
+                    <input type="radio" required name="Sex" value="Female"> Female</p>
+                    <p>Upload a picture if you want: <input type="file" name="Uploadpicture"></p>
+                    <p><textarea required name="textBox" placeholder="Put your text here"></textarea></p>
+                    <p><input type="submit" value="Submit"></p>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
