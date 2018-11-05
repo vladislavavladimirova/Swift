@@ -1,0 +1,712 @@
+/*************************************************************************/
+/* REUSABLE ELEMENTS */
+/*************************************************************************/
+/* arrow */
+/* headers */
+/* checkbox hack */
+/*************************************************************************/
+/* Navigation */
+/*************************************************************************/
+/*************************************************************************/
+/* Animation buttons */
+/*************************************************************************/
+/*************************************************************************/
+/* Main Header */
+/*************************************************************************/
+/*************************************************************************/
+/* Introduction Text */
+/*************************************************************************/
+/*************************************************************************/
+/* Big Rocket */
+/*************************************************************************/
+/*************************************************************************/
+/* Big Rocket IMAGE MARKUPS */
+/*************************************************************************/
+/*************************************************************************/
+/* Technical Overview */
+/*************************************************************************/
+/*************************************************************************/
+/* Many Rockets */
+/*************************************************************************/
+/*************************************************************************/
+/* Pictures */
+/*************************************************************************/
+/*************************************************************************/
+/* FOOTER */
+/*************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  background-color: #181c1f;
+  font-weight: 100;
+  overflow-x: hidden;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.arrow {
+  display: inline-block;
+}
+.arrow-left {
+  padding: 2px;
+  border-left: 280px solid #dd8f00;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #dd8f00;
+  display: inline-block;
+  margin-left: -8px;
+}
+h4 {
+  color: white;
+  margin-top: 40px;
+}
+h3 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 100;
+  display: block;
+  width: 45%;
+  border-bottom: 1px dashed #c7c7c7;
+  padding-bottom: 15px;
+  margin: 0 0 20px 0;
+}
+.container {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+iframe {
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+header input[type=checkbox]:checked ~ iframe {
+  display: block;
+  opacity: 1;
+  transition: opacity 2s;
+}
+nav {
+  width: 1440px;
+  background-color: #181c1f;
+  padding: 25px 0;
+}
+.logo {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  text-align: right;
+  width: 20%;
+}
+.leftNav {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-left: 10px;
+  width: 40%;
+}
+.leftNav div {
+  display: inline-block;
+}
+.rightNav {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  margin-left: 50px;
+  width: 30%;
+}
+.rightNav div {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.linkNavLeft {
+  margin: 0 8px;
+}
+.linkNavLeft a:link {
+  font-size: 14px;
+  color: white;
+  padding-bottom: 1px;
+  transition: border 0.4s;
+}
+.linkNavLeft a:visited {
+  font-size: 14px;
+  color: white;
+  padding-bottom: 1px;
+  transition: border 0.4s;
+}
+.linkNavLeft a:hover {
+  border-bottom: 2px solid #ccac55;
+}
+.linkNavLeft a:active {
+  border-bottom: 2px solid #ccac55;
+}
+.yellowLink {
+  color: #ccac55;
+}
+.linkNavRight {
+  margin: 0 8px;
+}
+.linkNavRight a:link {
+  font-size: 12px;
+  padding-bottom: 1px;
+  color: #8b939b;
+  text-decoration: none;
+  transition: border 0.4s;
+}
+.linkNavRight a:visited {
+  font-size: 12px;
+  padding-bottom: 1px;
+  color: #8b939b;
+  text-decoration: none;
+  transition: border 0.4s;
+}
+.linkNavRight a:hover {
+  border-bottom: 2px solid #8b939b;
+}
+.linkNavRight a:active {
+  border-bottom: 2px solid #8b939b;
+}
+.shopBtn a:link {
+  background-color: black;
+  color: #8b939b;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 8px 14px;
+  border-radius: 16px;
+  transition: background-color 0.4s ease-out;
+}
+.shopBtn a:visited {
+  background-color: black;
+  color: #8b939b;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 8px 14px;
+  border-radius: 16px;
+  transition: background-color 0.4s ease-out;
+}
+.shopBtn a:hover {
+  background: radial-gradient(#000, #000, #999);
+}
+.shopBtn a:active {
+  background: radial-gradient(#000, #000, #999);
+}
+.mainText {
+  width: 1440px;
+  height: 70vh;
+  position: relative;
+  background-image: url("img/fheavy_product_page1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.sectionTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  line-height: 52px;
+}
+.iconBtn {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fa-play {
+  color: white;
+  font-size: 50px;
+}
+.introText {
+  padding: 40px;
+  margin: auto;
+  width: 1140px;
+  color: #c7c7c7;
+}
+.leftBox {
+  display: block;
+  float: left;
+  width: 45%;
+}
+.colText {
+  display: block;
+  float: left;
+  width: 44%;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 0 30px 0 0;
+}
+.rightBox {
+  display: block;
+  float: left;
+  width: 30%;
+  font-size: 12px;
+  margin: -6% 0 0 10%;
+}
+.rightBox img {
+  position: absolute;
+  left: 54%;
+}
+.rightBox p {
+  margin: 4px;
+  padding: 18px;
+  background-color: #272727;
+  text-align: center;
+  z-index: -1;
+}
+.rightBox p a:link {
+  font-size: 12px;
+  padding-bottom: 1px;
+  color: #3569a4;
+  text-decoration: none;
+  transition: border 0.4s;
+}
+.rightBox p a:visited {
+  font-size: 12px;
+  padding-bottom: 1px;
+  color: #3569a4;
+  text-decoration: none;
+  transition: border 0.4s;
+}
+.rightBox p a:hover {
+  border-bottom: 2px solid #3569a4;
+}
+.rightBox p a:active {
+  border-bottom: 2px solid #3569a4;
+}
+.bigRocket {
+  padding: 20px 20px 40px 0px;
+  margin: auto;
+  width: 1140px;
+  color: #c7c7c7;
+  position: relative;
+  font-weight: 100;
+}
+.bigRocketText {
+  display: block;
+  width: 40%;
+  float: left;
+  padding: 0px;
+  margin-left: 10px;
+}
+.bigRocketImg {
+  display: block;
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+}
+.rocketImg {
+  width: 120%;
+}
+.firstBox {
+  margin-bottom: 100px;
+}
+.normalText {
+  font-size: 14px;
+  line-height: 22px;
+}
+.specialText {
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+  font-size: 14px;
+  color: dimgrey;
+}
+.smallText {
+  font-size: 13px;
+  color: #a0a0a0;
+  line-height: 22px;
+}
+.secondBox {
+  margin-bottom: 100px;
+}
+.secondBox ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin-top: 10px;
+}
+.secondBox ul li:first-child {
+  font-size: 14px;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.secondBox ul li:nth-child(2) {
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.thirdBox ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin-top: 10px;
+}
+.thirdBox ul li:first-child {
+  font-size: 14px;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: 1px;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.thirdBox ul li:nth-child(2) {
+  font-size: 40px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.listFacts {
+  display: inline-block;
+  width: 45%;
+}
+.listSpecial {
+  font-size: 25px;
+  color: #a0a0a0;
+}
+.fourthBox {
+  display: inline-block;
+  position: absolute;
+  bottom: 2%;
+}
+.figureText {
+  color: white;
+  font-size: 12px;
+  margin: 10px 0 5px 0;
+}
+.fairing-1-box {
+  position: absolute;
+  top: 20px;
+  left: 655px;
+  width: 170px;
+  opacity: 1;
+  transition: all 0.5s ease;
+  opacity: 0;
+  text-align: right;
+}
+.fairing-1-box img {
+  width: 50%;
+}
+.fairing-1-box:hover {
+  opacity: 1;
+  transform: translate(-150px, 0);
+}
+.fairing-2-box {
+  position: absolute;
+  top: 20px;
+  left: 825px;
+  width: 170px;
+  opacity: 1;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.fairing-2-box img {
+  width: 50%;
+}
+.fairing-2-box:hover {
+  opacity: 1;
+  transform: translate(150px, 0);
+}
+.techView {
+  width: 1140px;
+  margin: 50px auto;
+  background-color: #000;
+  border-radius: 2px;
+  color: #f3f3f3;
+  padding-bottom: 20px;
+}
+.techOver {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.techBox ul {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 20%;
+}
+.techList {
+  border-bottom: 1px solid #a0a0a0;
+  margin-top: 20px;
+}
+.techList2 {
+  font-size: 18px;
+  font-family: Tahoma, sans-serif;
+  margin-top: 10px;
+}
+.techSpecial {
+  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  margin-top: 10px;
+  color: #a0a0a0;
+}
+.manyRockets {
+  width: 1440px;
+  background-color: #f3f3f3;
+}
+.manyBox {
+  width: 1140px;
+  margin: 40px auto;
+}
+.manyTitle {
+  color: #070707;
+  font-size: 30px;
+  padding: 60px 0 20px 0;
+  margin-bottom: 30px;
+  border-bottom: 2px dotted;
+}
+.manyText {
+  font-size: 14px;
+  color: #070707;
+  margin-bottom: 20px;
+}
+.manySpecial {
+  font-weight: bold;
+}
+.Pictures {
+  width: 1440px;
+  background-color: white;
+  text-decoration: none;
+}
+.PictureHeader {
+  margin: 0 150px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 60px 0 20px 20px;
+  font-weight: 100;
+  display: inline-block;
+}
+.PictureBox {
+  width: 1140px;
+  margin: 0 auto 20px auto;
+  background-color: #f3f3f3;
+}
+.Pic1 {
+  display: inline-block;
+  width: 27%;
+  margin: 30px 30px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+.Pic2 {
+  display: inline-block;
+  width: 27%;
+  margin: 30px 30px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+.Pic3 {
+  display: inline-block;
+  width: 27%;
+  margin: 30px 30px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+.picText-1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 10px;
+}
+.picText-1 a:link {
+  color: #555555;
+}
+.picText-1 a:visited {
+  color: #555555;
+}
+.picText-1 a:hover {
+  border-bottom: 2px solid #555555;
+}
+.picText-1 a:active {
+  border-bottom: 2px solid #555555;
+}
+.picText-2 {
+  font-size: 10px;
+  margin: 5px 10px;
+  color: #555555;
+}
+.picText-2 a:hover {
+  border-bottom: 1px solid;
+}
+.picText-2 a:active {
+  border-bottom: 1px solid;
+}
+.picText-3 {
+  margin: 5px 10px 30px 10px;
+  font-size: 14px;
+  color: #555555;
+}
+.Social {
+  display: inline-block;
+  margin-left: 25%;
+}
+.Social a {
+  color: white;
+  background-color: #000;
+  padding: 4px;
+  border-radius: 4px;
+}
+.Social a:first-child:hover {
+  color: blue;
+}
+.Social a:last-child:hover {
+  color: red;
+}
+.PictureHeaderBox {
+  width: 1440px;
+}
+.recentUp {
+  text-align: right;
+  margin: 50px 150px 50px 50px;
+  font-size: 14px;
+}
+.recentUp a:hover {
+  border-bottom: 2px solid;
+}
+footer {
+  width: 1440px;
+  margin-top: 60px;
+}
+.topFooter {
+  width: 100%;
+  margin-left: 20px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 60px;
+}
+.topFooter ul {
+  display: inline-block;
+  width: 18%;
+  list-style: none;
+  vertical-align: top;
+}
+.topFooter ul:nth-child(2) {
+  border-left: 1px dashed dimgrey;
+}
+.topFooter ul:nth-child(3) {
+  border-left: 1px dashed dimgrey;
+}
+.topFooter ul:nth-child(4) {
+  border-left: 1px dashed dimgrey;
+}
+.topFooter ul li a {
+  color: dimgrey;
+  font-size: 14px;
+  line-height: 20px;
+}
+.topFooter ul li a:hover {
+  border-bottom: 1px solid;
+}
+.bottomFooter {
+  background-color: #000;
+}
+.bottomFooter ul {
+  margin: 0;
+  padding: 20px 40px;
+}
+.bottomFooter ul li {
+  list-style: none;
+  display: inline-block;
+}
+.bottomFooter ul li a {
+  color: dimgrey;
+  font-size: 14px;
+  line-height: 20px;
+}
+.bottomFooter ul li a:hover {
+  border-bottom: 1px solid;
+}
+.trademark {
+  float: right;
+  margin-right: 150px;
+}
+.tooltip {
+  position: absolute;
+  top: 50%;
+}
+.tooltip i {
+  font-size: 15px;
+  background-color: #6464eb;
+  box-shadow: #c7c7c7;
+  border-radius: 50%;
+  padding: 5px;
+  transition: all 0.5s;
+}
+.tooltip:hover i {
+  transform: rotate(45deg);
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+}
+.tooltiptext {
+  background-color: white;
+  color: dimgray;
+  width: 500px;
+  height: 250px;
+}
+.tooltiptext ul {
+  list-style: none;
+}
+.tooltiptext ul li:nth-child(2) {
+  font-size: 20px;
+  color: #272727;
+}
+.tooltiptext ul li:nth-child(4) {
+  margin-top: 20px;
+}
+.tooltiptext ul li a {
+  background-color: blue;
+  border-radius: 1px;
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+.tooltipTitle {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.tooltipList {
+  padding-right: 20px;
+}
