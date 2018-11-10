@@ -1,0 +1,116 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.startGame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%); 
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px 120px;
+    opacity: 0.8;
+    box-shadow: 5px 3px 10px rgb(88, 88, 88);
+    color: #361157;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.startGame:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), white, white, white, rgba(0, 0, 0, 0.8));
+}
+
+
+/*gamePage*/
+
+
+.boxCards {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.timer {
+    background-color: white;
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 30px auto;
+    opacity: 0.8;
+}
+
+.scoreBox {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 3px 10px rgb(44, 44, 44);
+    border-bottom-right-radius: 5px;
+    width: 140px;
+    text-align: center;
+}
+
+.score {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.highscore {
+    font-size: 15px;
+    margin: 5px 5px 10px 5px;
+}
+
+.newGame {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 5px 3px 10px rgb(44, 44, 44);
+    border-bottom-left-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.boxCards ul {
+    list-style: none;
+    margin: auto;
+}
+
+.boxCards ul li {
+    display: inline-block;
+    width: 12.5%;
+    margin: 10px;
+}
+
+.boxCards ul li img {
+    width: 100%;
+}
+
+/* game over */
+
+.gameOver {
+    font-size: 80px;
+    font-weight: bold;
+    color: #c0392b;
+    text-shadow: 4px 4px 5px #141414;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.finalScore {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 5px #141414;
+    text-align: center;
+
+}
+
